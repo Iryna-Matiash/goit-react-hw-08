@@ -1,0 +1,52 @@
+.section {
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 12px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 4px;
+  border: none;
+}
+.label {
+  font-weight: bold;
+}
+
+.input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.error {
+  font-size: 14px;
+  color: red;
+}
+.button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: lightgrey;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: darkgrey;
+}
